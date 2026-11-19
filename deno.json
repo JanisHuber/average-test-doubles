@@ -1,5 +1,7 @@
 {
-  "tasks": {},
+  "tasks": {
+    "test": "deno test --allow-read --allow-write"
+  },
   "imports": {
     "@std/assert": "jsr:@std/assert@1"
   }
